@@ -17,7 +17,7 @@ body{
 }
 .card{
     background-color: hsl(0, 0%, 100%);
-    padding: 55px 55px;
+    padding: 50px 55px;
     border-radius: 25px;
     border-bottom-right-radius: 200px;
     width: 840px;
@@ -28,7 +28,7 @@ body{
     display: flex;
     gap: 32px;
 }
-.inputs ul li:first-child{
+.input li:first-child{
     font-size: 14px;
     font-weight: 600;
     color: hsl(0, 1%, 44%);
@@ -36,7 +36,7 @@ body{
     text-transform: uppercase;
     margin-bottom: 9px;
 }
-.inputs li input{
+.input li input{
     border: 2px solid hsl(0, 0%, 86%);
     outline: none;
     border-radius: 10px;
@@ -46,10 +46,10 @@ body{
     font-size: 32px;
     font-weight: 600;
 }
-.inputs input:focus{
+.input input:focus{
     border: 2px solid hsl(259, 100%, 65%);
 }
-.inputs li input::placeholder{
+.input li input::placeholder{
     font-size: 32px;
     color: hsl(0, 1%, 44%);
     font-weight: 600;
@@ -83,4 +83,16 @@ body{
 }
 .age li p span{
     color: hsl(259, 100%, 65%);
+}
+.input.error li p{
+    color: hsl(0, 100%, 67%);
+}
+.input.error li input{
+    border: 2px solid hsl(0, 100%, 67%);
+}
+.input.error li p:last-child{
+    color: hsl(0, 100%, 67%);
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
 }
