@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body{
+    font-size: 32px;
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 55px 55px;
+    border-radius: 25px;
+    border-bottom-right-radius: 200px;
+    width: 840px;
+    height: 650px;
+}
+
+.inputs{
+    display: flex;
+    gap: 32px;
+}
+.inputs ul li:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.inputs li input{
+    border: 2px solid hsl(0, 0%, 86%);
+    outline: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 70px;
+    padding: 23px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.inputs input:focus{
+    border: 2px solid hsl(259, 100%, 65%);
+}
+.inputs li input::placeholder{
+    font-size: 32px;
+    color: hsl(0, 1%, 44%);
+    font-weight: 600;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gray-bar{
+    height: 2px;
+    width: 100%;
+    background-color: hsl(0, 0%, 94%);
+}
+.bar img{
+    background-color: hsl(259, 100%, 65%);
+    padding: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.bar img:hover{
+    background-color: hsl(0, 0%, 8%);
+}
+.age li p{
+    color: hsl(0, 0%, 8%);
+    font-size: 105px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 115px;
+}
+.age li p span{
+    color: hsl(259, 100%, 65%);
+}
