@@ -1,0 +1,95 @@
+@media(max-width:768px) {
+    .card {
+        padding: 40px 45px;
+        width: 640px;
+        height: 510px;
+    }
+
+    .inputs {
+        gap: 20px;
+    }
+
+    .input li input,
+    .input li input::placeholder {
+        font-size: 24px;
+    }
+
+    .input li input {
+        width: 140px;
+        height: 60px;
+    }
+
+    .age li p {
+        font-size: 70px;
+        line-height: 80px;
+    }
+}
+
+@media(max-width:425px) {
+    .card {
+        padding: 30px 35px;
+        width: 380px;
+        height: 340px;
+        border-bottom-right-radius: 160px;
+    }
+
+    .inputs {
+        gap: 10px;
+    }
+
+    .input li:first-child {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .input li input,
+    .input li input::placeholder {
+        font-size: 14px;
+    }
+
+    .input li input {
+        width: 90px;
+        height: 40px;
+    }
+
+    .bar {
+        margin-top: 10px;
+    }
+
+    .bar img {
+        padding: 10px;
+        width: 50px;
+    }
+
+    .age li p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width:375px){
+    .card {
+        padding: 20px 25px;
+        max-width: 350px;
+        height: 340px;
+        border-bottom-right-radius: 130px;
+    }
+}
+
+@media(max-width:320px){
+    .card {
+        padding: 20px;
+        max-width: 300px;
+        height: 320px;
+        border-bottom-right-radius: 100px;
+    }
+
+    .inputs {
+        gap: 8px;
+    }
+
+    .input li input {
+        width: 80px;
+        padding: 15px;
+    }
+}

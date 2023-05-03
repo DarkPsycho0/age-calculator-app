@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
-body{
+body {
     font-size: 32px;
     background-color: hsl(0, 0%, 94%);
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,8 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
-.card{
+
+.card {
     background-color: hsl(0, 0%, 100%);
     padding: 50px 55px;
     border-radius: 25px;
@@ -24,11 +25,12 @@ body{
     height: 650px;
 }
 
-.inputs{
+.inputs {
     display: flex;
     gap: 32px;
 }
-.input li:first-child{
+
+.input li:first-child {
     font-size: 14px;
     font-weight: 600;
     color: hsl(0, 1%, 44%);
@@ -36,61 +38,76 @@ body{
     text-transform: uppercase;
     margin-bottom: 9px;
 }
-.input li input{
+
+.input li input {
     border: 2px solid hsl(0, 0%, 86%);
     outline: none;
     border-radius: 10px;
     width: 160px;
     height: 70px;
     padding: 23px;
-    font-size: 32px;
     font-weight: 600;
 }
-.input input:focus{
-    border: 2px solid hsl(259, 100%, 65%);
-}
-.input li input::placeholder{
-    font-size: 32px;
+
+.input li input::placeholder {
     color: hsl(0, 1%, 44%);
     font-weight: 600;
 }
-.bar{
+
+.input li input,
+.input li input::placeholder {
+    font-size: 32px;
+}
+
+.input input:focus {
+    border: 2px solid hsl(259, 100%, 65%);
+}
+
+.bar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.gray-bar{
+
+.gray-bar {
     height: 2px;
     width: 100%;
     background-color: hsl(0, 0%, 94%);
 }
-.bar img{
+
+.bar img {
     background-color: hsl(259, 100%, 65%);
     padding: 25px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-.bar img:hover{
+
+.bar img:hover {
     background-color: hsl(0, 0%, 8%);
 }
-.age li p{
+
+.age li p {
     color: hsl(0, 0%, 8%);
     font-size: 105px;
     font-weight: 800;
     font-style: italic;
     line-height: 115px;
 }
-.age li p span{
+
+.age li p span {
     color: hsl(259, 100%, 65%);
 }
-.input.error li p{
+
+.input.error li p {
     color: hsl(0, 100%, 67%);
 }
-.input.error li input{
+
+.input.error li input {
     border: 2px solid hsl(0, 100%, 67%);
 }
-.input.error li p:last-child{
+
+.input.error li p:last-child {
     color: hsl(0, 100%, 67%);
     font-style: italic;
     font-size: 14px;
